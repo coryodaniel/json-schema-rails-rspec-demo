@@ -22,8 +22,6 @@ describe PostsController do
     end
   end
 
-  # Using the schemata files, we dont have to recombine the schema
-  # might be nicer to do that so Guard can watch those json files...
   def schema_contents
     #JSON.parse(File.read("docs/schemata/post.json"))
     JSON.parse(File.read("docs/schema.json"))
